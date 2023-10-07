@@ -1,0 +1,63 @@
+/* Reset de margens e preenchimento padrão para o corpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o container principal */
+.container {
+    max-width: 600px;
+    margin: 50px auto 0; /* Margem no topo e no fundo, mas não no topo */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; /* Centralizar o título */
+}
+
+/* Estilo para os grupos de formulário */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilo para rótulos */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Estilo para campos de entrada de texto */
+input[type="text"],
+input[type="password"],
+select {
+    width: 96.1%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para botões */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Centralizar o botão */
+}
+
+.btn {
+    padding-top: 50px;
+}
+

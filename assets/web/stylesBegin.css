@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.img-fluid {
+    border-radius: 25px;
+    width: 700px;
+}
+
+.text {
+    padding-top: 50px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    height: 350px;
+}
+
+.card-title {
+    text-align: center;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+footer{
+    padding: 100px;
+}
